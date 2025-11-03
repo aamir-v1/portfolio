@@ -4,6 +4,7 @@ import { fadeIn } from "@/lib/motion";
 import myimage from "@/assets/images/IMG_0980.jpg";
 
 export default function About() {
+  const onPress = () => {};
   return (
     <section id="about" className="py-20 bg-muted/50">
       <div className="container mx-auto px-6">
