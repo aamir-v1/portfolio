@@ -3,6 +3,8 @@ import { fadeIn } from "@/lib/motion";
 
 import myimage from "@/assets/images/IMG_0980.jpg";
 
+console.log("Test push");
+
 export default function About() {
   const onPress = () => {};
   return (
