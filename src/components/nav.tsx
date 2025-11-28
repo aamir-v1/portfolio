@@ -55,7 +55,7 @@ export default function Nav() {
               asChild
             >
               <a
-                href="https://github.com/aamir104512"
+                href="https://github.com/aamir-v1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -75,7 +75,7 @@ export default function Nav() {
               asChild
             >
               <a
-                href="https://github.com/aamir104512"
+                href="https://github.com/aamir-v1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
