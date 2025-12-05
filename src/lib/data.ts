@@ -766,6 +766,7 @@ export const projects: Project[] = [
     description:
       "A social book reading and event management platform that connects readers through shared reading experiences. Features include creating and joining reading events, real-time discussions, user authentication, and profile management. Built with React Native, Expo, TypeScript, and Firebase.",
     image: yappedImages.splash.header,
+    appStoreLink: "https://apps.apple.com/us/app/yapped/id6747876695",
     skills: [
       "Expo",
       "React Native",
