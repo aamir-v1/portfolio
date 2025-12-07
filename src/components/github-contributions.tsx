@@ -9,7 +9,7 @@ export default function GitHubContributions() {
   const { theme } = useTheme();
 
   const graphColor = theme === "dark" ? "4f46e5" : "4f46e5";
-  const graphUrl = `https://ghchart.rshah.org/${graphColor}/aamir104512`;
+  const graphUrl = `https://ghchart.rshah.org/${graphColor}/aamir-v1`;
 
   return (
     <section className="py-20 px-6">
