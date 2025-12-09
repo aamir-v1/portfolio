@@ -5,6 +5,8 @@ import Contact from "@/components/contact";
 import About from "@/components/about";
 import GitHubContributions from "@/components/github-contributions";
 
+// just a commit
+
 export default function Home() {
   return (
     <main className="min-h-screen w-full">
