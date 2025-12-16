@@ -592,3 +592,104 @@ export const yappedImages = {
     screen5: new URL("./yapped/account/5.png", import.meta.url).href,
   },
 };
+
+// Kitchen Stage App
+export const kitchenStageImages = {
+  splash: {
+    header: new URL("./kitchen-stage/kitchenStageHeader.png", import.meta.url)
+      .href,
+  },
+  auth: {
+    screen1: new URL("./kitchen-stage/auth/1.png", import.meta.url).href,
+    screen2: new URL("./kitchen-stage/auth/2.png", import.meta.url).href,
+    screen3: new URL("./kitchen-stage/auth/3.png", import.meta.url).href,
+    screen4: new URL("./kitchen-stage/auth/4.png", import.meta.url).href,
+    screen5: new URL("./kitchen-stage/auth/5.png", import.meta.url).href,
+    screen6: new URL("./kitchen-stage/auth/6.png", import.meta.url).href,
+  },
+  home: {
+    screen1: new URL("./kitchen-stage/home+details/1.png", import.meta.url)
+      .href,
+    screen2: new URL("./kitchen-stage/home+details/2.png", import.meta.url)
+      .href,
+    screen3: new URL("./kitchen-stage/home+details/3.png", import.meta.url)
+      .href,
+    screen4: new URL("./kitchen-stage/home+details/4.png", import.meta.url)
+      .href,
+    screen5: new URL("./kitchen-stage/home+details/5.png", import.meta.url)
+      .href,
+    screen6: new URL("./kitchen-stage/home+details/6.png", import.meta.url)
+      .href,
+    screen7: new URL("./kitchen-stage/home+details/7.png", import.meta.url)
+      .href,
+    screen8: new URL("./kitchen-stage/home+details/8.png", import.meta.url)
+      .href,
+    screen9: new URL("./kitchen-stage/home+details/9.png", import.meta.url)
+      .href,
+    screen10: new URL("./kitchen-stage/home+details/10.png", import.meta.url)
+      .href,
+    screen11: new URL("./kitchen-stage/home+details/11.png", import.meta.url)
+      .href,
+    screen12: new URL("./kitchen-stage/home+details/12.png", import.meta.url)
+      .href,
+  },
+  promotion: {
+    screen1: new URL("./kitchen-stage/promotions/1.png", import.meta.url).href,
+    screen2: new URL("./kitchen-stage/promotions/2.png", import.meta.url).href,
+    screen3: new URL("./kitchen-stage/promotions/3.png", import.meta.url).href,
+    screen4: new URL("./kitchen-stage/promotions/4.png", import.meta.url).href,
+    screen5: new URL("./kitchen-stage/promotions/5.png", import.meta.url).href,
+    screen6: new URL("./kitchen-stage/promotions/6.png", import.meta.url).href,
+    screen7: new URL("./kitchen-stage/promotions/7.png", import.meta.url).href,
+    screen8: new URL("./kitchen-stage/promotions/8.png", import.meta.url).href,
+    screen9: new URL("./kitchen-stage/promotions/9.png", import.meta.url).href,
+    screen10: new URL("./kitchen-stage/promotions/10.png", import.meta.url)
+      .href,
+    screen11: new URL("./kitchen-stage/promotions/11.png", import.meta.url)
+      .href,
+    screen12: new URL("./kitchen-stage/promotions/12.png", import.meta.url)
+      .href,
+    screen13: new URL("./kitchen-stage/promotions/13.png", import.meta.url)
+      .href,
+    screen14: new URL("./kitchen-stage/promotions/14.png", import.meta.url)
+      .href,
+    screen15: new URL("./kitchen-stage/promotions/15.png", import.meta.url)
+      .href,
+    screen16: new URL("./kitchen-stage/promotions/16.png", import.meta.url)
+      .href,
+  },
+  recipe: {
+    screen1: new URL("./kitchen-stage/recipe/1.png", import.meta.url).href,
+    screen2: new URL("./kitchen-stage/recipe/2.png", import.meta.url).href,
+    screen3: new URL("./kitchen-stage/recipe/3.png", import.meta.url).href,
+    screen4: new URL("./kitchen-stage/recipe/4.png", import.meta.url).href,
+    screen5: new URL("./kitchen-stage/recipe/5.png", import.meta.url).href,
+    screen6: new URL("./kitchen-stage/recipe/6.png", import.meta.url).href,
+    screen7: new URL("./kitchen-stage/recipe/7.png", import.meta.url).href,
+    screen8: new URL("./kitchen-stage/recipe/8.png", import.meta.url).href,
+    screen9: new URL("./kitchen-stage/recipe/9.png", import.meta.url).href,
+    screen10: new URL("./kitchen-stage/recipe/10.png", import.meta.url).href,
+    screen11: new URL("./kitchen-stage/recipe/11.png", import.meta.url).href,
+    screen12: new URL("./kitchen-stage/recipe/12.png", import.meta.url).href,
+    screen13: new URL("./kitchen-stage/recipe/13.png", import.meta.url).href,
+    screen14: new URL("./kitchen-stage/recipe/14.png", import.meta.url).href,
+  },
+  search: {
+    screen1: new URL("./kitchen-stage/search/1.png", import.meta.url).href,
+    screen2: new URL("./kitchen-stage/search/2.png", import.meta.url).href,
+    screen3: new URL("./kitchen-stage/search/3.png", import.meta.url).href,
+    screen4: new URL("./kitchen-stage/search/4.png", import.meta.url).href,
+    screen5: new URL("./kitchen-stage/search/5.png", import.meta.url).href,
+    screen6: new URL("./kitchen-stage/search/6.png", import.meta.url).href,
+    screen7: new URL("./kitchen-stage/search/7.png", import.meta.url).href,
+    screen8: new URL("./kitchen-stage/search/8.png", import.meta.url).href,
+    screen9: new URL("./kitchen-stage/search/9.png", import.meta.url).href,
+    screen10: new URL("./kitchen-stage/search/10.png", import.meta.url).href,
+  },
+  account: {
+    screen1: new URL("./kitchen-stage/account/1.png", import.meta.url).href,
+    screen2: new URL("./kitchen-stage/account/2.png", import.meta.url).href,
+    screen3: new URL("./kitchen-stage/account/3.png", import.meta.url).href,
+    screen4: new URL("./kitchen-stage/account/4.png", import.meta.url).href,
+  },
+};

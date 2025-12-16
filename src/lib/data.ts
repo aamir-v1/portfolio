@@ -6,6 +6,7 @@ import {
   shipSmart,
   inspections,
   yappedImages,
+  kitchenStageImages,
 } from "@/assets/images";
 
 interface ProjectModule {
@@ -299,6 +300,129 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: "Kitchen Stage",
+    description:
+      "A social media-style food app that brings the addictive, swipeable fun of video platforms to the culinary world. Users can discover, create, and share recipe videos with step-by-step directions and ingredient lists. Features include personalized recipe discovery, video creation with editing tools, recipe promotion system, advanced search with Algolia, dietary preferences, and a TikTok-style vertical video feed. Built with React Native, TypeScript, Redux Toolkit, Firebase, Algolia, and Stripe.",
+    image: kitchenStageImages.splash.header,
+    appStoreLink: "https://apps.apple.com/us/app/kitchen-stage/id6740279653",
+    skills: [
+      "React Native",
+      "TypeScript",
+      "Redux Toolkit",
+      "Firebase",
+      "Algolia",
+      "Stripe",
+      "Video Processing",
+    ],
+    modules: [
+      {
+        title: "Auth",
+        description:
+          "Comprehensive authentication system with email/password login, social media integration (Google, Apple), OTP verification, and password recovery. Features secure account creation, email verification, and a seamless onboarding flow with dietary restrictions and ingredient preferences setup for personalized recipe recommendations.",
+        screenshots: [
+          kitchenStageImages.auth.screen2,
+          kitchenStageImages.auth.screen1,
+          kitchenStageImages.auth.screen3,
+          kitchenStageImages.auth.screen4,
+          kitchenStageImages.auth.screen5,
+          kitchenStageImages.auth.screen6,
+        ],
+      },
+      {
+        title: "Home",
+        description:
+          "TikTok-style vertical video feed showcasing recipe videos from followed users. Features infinite scrolling, auto-play videos, real-time view tracking, interactive engagement (likes, comments, shares), user profile navigation, and personalized content discovery. Users can follow creators, save favorite recipes, and explore trending culinary content in an immersive full-screen video experience.",
+        screenshots: [
+          kitchenStageImages.home.screen1,
+          kitchenStageImages.home.screen2,
+          kitchenStageImages.home.screen3,
+          kitchenStageImages.home.screen4,
+          kitchenStageImages.home.screen5,
+          kitchenStageImages.home.screen6,
+          kitchenStageImages.home.screen7,
+          kitchenStageImages.home.screen8,
+          kitchenStageImages.home.screen9,
+          kitchenStageImages.home.screen10,
+          kitchenStageImages.home.screen11,
+          kitchenStageImages.home.screen12,
+        ],
+      },
+      {
+        title: "Promotion",
+        description:
+          "Powerful recipe promotion system allowing creators to boost their content visibility. Features include selecting recipes to promote, setting promotion goals (views, engagement, followers), audience targeting with custom demographics and interests, budget management, payment integration with Stripe, promotion insights and analytics, and free promotion options for new users. Creators can manage active promotions, track performance metrics, and optimize their content reach.",
+        screenshots: [
+          kitchenStageImages.promotion.screen2,
+          kitchenStageImages.promotion.screen1,
+          kitchenStageImages.promotion.screen3,
+          kitchenStageImages.promotion.screen4,
+          kitchenStageImages.promotion.screen5,
+          kitchenStageImages.promotion.screen6,
+          kitchenStageImages.promotion.screen7,
+          kitchenStageImages.promotion.screen8,
+          kitchenStageImages.promotion.screen9,
+          kitchenStageImages.promotion.screen10,
+          kitchenStageImages.promotion.screen11,
+          kitchenStageImages.promotion.screen12,
+          kitchenStageImages.promotion.screen13,
+          kitchenStageImages.promotion.screen14,
+          kitchenStageImages.promotion.screen15,
+          kitchenStageImages.promotion.screen16,
+        ],
+      },
+      {
+        title: "Recipe Creation",
+        description:
+          "Intuitive multi-step recipe creation interface for uploading and sharing culinary content. Users can record or upload videos (up to 45 seconds), edit videos with trimming and effects, add thumbnails, create detailed ingredient lists with quantities, write step-by-step cooking directions, set serving sizes and cooking time, select skill levels, categorize recipes, and add descriptions. Features video editing tools, draft saving, and seamless publishing workflow to become the next food sensation.",
+        screenshots: [
+          kitchenStageImages.recipe.screen2,
+          kitchenStageImages.recipe.screen1,
+          kitchenStageImages.recipe.screen3,
+          kitchenStageImages.recipe.screen4,
+          kitchenStageImages.recipe.screen5,
+          kitchenStageImages.recipe.screen6,
+          kitchenStageImages.recipe.screen7,
+          kitchenStageImages.recipe.screen8,
+          kitchenStageImages.recipe.screen9,
+          kitchenStageImages.recipe.screen10,
+          kitchenStageImages.recipe.screen11,
+          kitchenStageImages.recipe.screen12,
+          kitchenStageImages.recipe.screen13,
+          kitchenStageImages.recipe.screen14,
+        ],
+      },
+      {
+        title: "Search",
+        description:
+          "Advanced search functionality powered by Algolia for instant recipe and user discovery. Features include real-time search with debouncing, trending searches and hashtags, top searches, recent search history, search filters by ingredients and dietary preferences, user search, recipe search with serving size filters, and personalized recommendations. Users can explore trending categories, discover new creators, and find recipes tailored to their dietary restrictions and preferences.",
+        screenshots: [
+          kitchenStageImages.search.screen1,
+          kitchenStageImages.search.screen2,
+          kitchenStageImages.search.screen3,
+          kitchenStageImages.search.screen4,
+          kitchenStageImages.search.screen5,
+          kitchenStageImages.search.screen6,
+          kitchenStageImages.search.screen7,
+          kitchenStageImages.search.screen8,
+          kitchenStageImages.search.screen9,
+          kitchenStageImages.search.screen10,
+        ],
+      },
+      {
+        title: "Account",
+        description:
+          "Comprehensive account management system for personalizing the culinary experience. Users can view and edit their profile, manage dietary restrictions and ingredients to avoid, set cooking goals, view saved recipes and favorites, manage notifications, switch between personal and business accounts, access promotion insights, and customize app settings. Features include profile customization, privacy settings, and seamless account switching for content creators.",
+        screenshots: [
+          kitchenStageImages.account.screen1,
+          kitchenStageImages.account.screen2,
+          kitchenStageImages.account.screen3,
+          kitchenStageImages.account.screen4,
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Morsety",
     description:
       "A salon booking app for scheduling beauty services and purchasing related products. Features Google Maps integration, social logins, real-time notifications, and secure payments. Built with React Native, TypeScript, Redux Toolkit, Google Maps, and WebSockets.",
@@ -424,7 +548,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "ShipSmart",
     description:
       "A powerful shipment and package management app designed for seamless logistics. Track and manage incoming and outgoing shipments via boats or planes, scan barcodes and QR codes, and stay updated with real-time shipment status. Built with React Native Expo, TypeScript, and Redux Toolkit, featuring WebSockets for live updates and an intuitive interface for efficient package handling.",
@@ -581,7 +705,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Morsety Business",
     description:
       "A salon management app for handling appointments, services, and product sales, with a dedicated tablet mode. Includes Google Maps integration, social logins, real-time updates, and payment processing. Built with React Native, TypeScript, Redux Toolkit, Google Maps and WebSockets.",
@@ -691,7 +815,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "CarAdvisers Inspections",
     description:
       "An advanced car inspection app for inspectors to assess vehicle conditions, covering interior, exterior, electronics, damages, and tires. Inspectors can view scheduled inspections, create new ones, and manage detailed criteria. Features include draft-saving, a session timer that pauses when the app is in the background, and structured data management.",
@@ -761,7 +885,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Yapped",
     description:
       "A social book reading and event management platform that connects readers through shared reading experiences. Features include creating and joining reading events, real-time discussions, user authentication, and profile management. Built with React Native, Expo, TypeScript, and Firebase.",
