@@ -3,6 +3,8 @@ import { fadeIn } from "@/lib/motion";
 
 import myimage from "@/assets/images/IMG_0980.jpg";
 
+console.log("myimage");
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-muted/50">
